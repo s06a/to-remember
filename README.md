@@ -1,8 +1,8 @@
-# Coding questions and answers to be ready for job interview
+## Coding questions and answers to be ready for job interview
 
-Coding question with my answers to just remember and be ready for job interviews
+Coding questions with my answers to just remember and be ready for job interviews
 
-# Chapters
+## Chapters
 - **python**
 - **R**
 - **backend**
