@@ -4,7 +4,6 @@ Write a function to get a list of numbers. Separate them into odd and even, then
 '''
 
 # Answer
-
 def separator(ls):
     list1, list2 = [], []
     for l in ls:
