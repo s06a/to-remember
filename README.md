@@ -3,7 +3,7 @@
 Coding questions with my answers to just remember and be ready for job interviews
 
 # Chapters
-- **python**
+- **python** in progress
 - **R**
 - **backend**
 	- django
