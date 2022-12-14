@@ -5,8 +5,8 @@ get a two digit number, return the difference between the larger digit and the s
 
 # Answer
 def calculate_difference(number):
-		return max(number)-min(number)
+    number = [int(n) for n in number]
+    return max(number)-min(number)
 
 number = input()
-number = [int(n) for n in number]
 calculate_difference(number)
