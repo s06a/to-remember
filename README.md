@@ -1,6 +1,6 @@
 # Coding questions with answers
 
-Coding questions with my answers to just remember and be ready for job interviews
+Coding questions with answers to just remember and get ready for job interviews
 
 # Chapters
 - **python** in progress
