@@ -12,4 +12,4 @@ def factorial(n):
     return sum
 
 n = int(input())
-print(factorial(n))
+factorial(n)
