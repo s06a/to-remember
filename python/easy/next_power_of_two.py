@@ -11,7 +11,7 @@ def next_power_of_two():
 	if 2**p != n and 2**p > n:
 		return 2**p
 	else:
-		2**(p+1)
+		return 2**(p+1)
 
 n = int(input())
 next_power_of_two(n)
