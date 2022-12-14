@@ -3,7 +3,7 @@
 Coding questions with answers to just remember and get ready for job interviews
 
 # Chapters
-- **python** in progress
+- **[python](/python)** in progress
 - **R**
 - **c++**
 - **c**
@@ -14,7 +14,7 @@ Coding questions with answers to just remember and get ready for job interviews
 - **frontend**
 	- vue.js
 	- react
-- **shell scripting**
+- **[shell scripting](/shell-scripting)**
 - **machine learning**
 	- regression
 	- classification
