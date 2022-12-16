@@ -1,6 +1,6 @@
 # Question
-"""What is the largest prime factor of
-the number 600851475143?"""
+"""What is the largest prime factor of the number 600851475143?
+source: https://projecteuler.net/problem=3"""
 
 # Answer
 def is_prime(n):
