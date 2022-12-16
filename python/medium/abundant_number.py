@@ -3,8 +3,6 @@
 sum of its proper divisors is greater than the number"""
 
 # Answer
-import math
-
 def divisors(number):
     """number is integer
     returns divisors except
@@ -12,7 +10,7 @@ def divisors(number):
     """
     divisors = [1]
     n = 2
-    while n <= int(math.sqrt(number))+1:
+    while n <= int(round(number**0.5))+1:
         if number % n == 0:
             divisors.extend([n, number/n])
         n += 1
