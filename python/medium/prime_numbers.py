@@ -7,12 +7,15 @@ def is_prime(n):
     """n is integer
     checks if n is prime
     returns True or False"""
-    temp = 2
 
-    while temp < n**0.5 + 1:
+    if n % 2 == 0:
+        return False
+    temp = 3
+
+    while temp < int(n**0.5) + 1:
         if n % temp == 0:
             return False
-        temp += 1
+        temp += 2
 
     return True
 
