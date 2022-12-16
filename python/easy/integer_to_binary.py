@@ -1,10 +1,11 @@
 # Question
-'''
-convert integer to binary
-'''
+"""convert integer to binary"""
 
 # Answer
 def binary(n):
+    """n is integer
+    returns binary number
+    """
     output = []
     while n != 0:
         output.append(n % 2)
@@ -13,6 +14,7 @@ def binary(n):
     output = int(''.join(map(str, output)))
     return output
 
-n = int(input())
-output = binary(n)
-print(output)
+if __name__ = "__main__":
+    n = int(input())
+    output = binary(n)
+    print(output)
