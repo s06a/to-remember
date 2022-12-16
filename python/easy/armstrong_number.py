@@ -1,5 +1,5 @@
 # Question
-"""check if a number is an armstring number; sum of all 
+"""check if a number is an armstrong number; sum of all 
 digits each raised to the power of the length of the 
 number is equal to the number"""
 
