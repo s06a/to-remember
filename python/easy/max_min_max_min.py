@@ -5,6 +5,8 @@ length is odd return minimum and delete the element,
 do this till the end"""
 
 # Answer
+
+
 def return_max_min(sequence):
     """sequence is list of integers
     returns maximum if length of the sequence
@@ -21,6 +23,7 @@ def return_max_min(sequence):
         sequence = sequence.pop(sequence.index(minimum))
 
         return minimum
+
 
 if __name__ == "__main__":
     sequence = [int(n) for n in input().split(' ')]

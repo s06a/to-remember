@@ -5,11 +5,14 @@ of the even-valued terms
 source: https://projecteuler.net/problem=2"""
 
 # Answer
+
+
 def is_even(n):
     """n is integer
     returns True or False"""
 
     return n % 2 == 0
+
 
 if __name__ == "__main__":
     i, j = 1, 1

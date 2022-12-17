@@ -3,6 +3,8 @@
 source: https://projecteuler.net/problem=3"""
 
 # Answer
+
+
 def is_prime(n):
     """n is integer
     returns True if n is prime
@@ -16,6 +18,7 @@ def is_prime(n):
             return False
 
     return True
+
 
 def largest_prime_factor(n):
     """n is integer
@@ -34,6 +37,7 @@ def largest_prime_factor(n):
         return max(prime_factors)
     else:
         return n
+
 
 if __name__ == "__main__":
     n = 600851475143

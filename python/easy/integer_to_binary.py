@@ -2,6 +2,8 @@
 """convert integer to binary"""
 
 # Answer
+
+
 def binary(n):
     """n is integer
     returns binary number
@@ -15,6 +17,7 @@ def binary(n):
     output = int(''.join(map(str, output)))
 
     return output
+
 
 if __name__ = "__main__":
     n = int(input())

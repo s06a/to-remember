@@ -3,6 +3,8 @@
 sum of its proper divisors is greater than the number"""
 
 # Answer
+
+
 def divisors(number):
     """number is integer
     returns divisors except
@@ -18,12 +20,14 @@ def divisors(number):
 
     return list(set(divisors))
 
+
 def check_if_abundant(number):
     """number is integer
     checks if number is abundant
     returns True or False"""
 
     return number > sum(divisors(number))
+
 
 if __name__ == "__main__":
     number = int(input())

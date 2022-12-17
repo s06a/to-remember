@@ -3,6 +3,8 @@
 equal to its reverse"""
 
 # Answer
+
+
 def _palindrome_checker(number):
     """number is integer
     checks if number is palindorme
@@ -14,6 +16,7 @@ def _palindrome_checker(number):
     number = str(number)
 
     return number == number[::-1]
+
 
 def palindrome_checker(number):
     """number is integer
@@ -27,6 +30,7 @@ def palindrome_checker(number):
         number = number // 10
 
     return rev == num
+
 
 if __name__ == "__main__":
     number = int(input())

@@ -3,16 +3,19 @@
 factorial"""
 
 # Answer
+
+
 def factorial(n):
     """n is integer
     returns factorial of n"""
     sum = 1
 
-    while n>0:
+    while n > 0:
         sum *= n
         n -= 1
 
     return sum
+
 
 if __name__ == "__main__":
     n = int(input())

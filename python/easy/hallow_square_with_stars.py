@@ -3,6 +3,8 @@
 characters"""
 
 # Answer
+
+
 def hallow_square(n):
     """n is integer
     prints a hallow square with
@@ -13,6 +15,7 @@ def hallow_square(n):
             print('* '*(n-1) + '*')
         else:
             print('*' + ' '*(2*(n - 1) - 1) + '*')
+
 
 if __name__ == "__main__":
     n = int(input())

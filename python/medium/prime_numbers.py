@@ -3,6 +3,8 @@
 between lower_range and upper_range"""
 
 # Answer
+
+
 def is_prime(n):
     """n is integer
     checks if n is prime
@@ -19,6 +21,7 @@ def is_prime(n):
 
     return True
 
+
 def prime_numbers(lower_range, upper_range):
     """lower_range and upper_range are integers
     returns list of prime numbers"""
@@ -29,6 +32,7 @@ def prime_numbers(lower_range, upper_range):
             list.append(n)
 
     return list
+
 
 if __name__ == "__main__":
     print(*prime_numbers(10, 100), sep=' ')

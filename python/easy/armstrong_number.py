@@ -4,6 +4,8 @@ digits each raised to the power of the length of the
 number is equal to the number"""
 
 # Answer
+
+
 def is_armstrong(n: int):
     """n is integer
     returns True or False"""
@@ -15,6 +17,7 @@ def is_armstrong(n: int):
         sum += int(i)**p
 
     return sum == n
+
 
 if __name__ == "__main__":
     n = int(input())

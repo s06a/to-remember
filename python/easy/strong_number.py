@@ -4,16 +4,19 @@ factorials of each digit is equal to the
 number"""
 
 # Answer
+
+
 def factorial(n: int):
     """n is integer
     returns factorial of n"""
     sum = 1
 
-    while n>0:
+    while n > 0:
         sum *= n
         n -= 1
 
     return sum
+
 
 def is_strong(n: int):
     """n is integer
@@ -27,6 +30,7 @@ def is_strong(n: int):
         list.pop(0)
 
     return sum == n
+
 
 if __name__ == "__main__":
     n = int(input())
