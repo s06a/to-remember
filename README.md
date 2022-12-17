@@ -2,7 +2,7 @@
 
 Coding questions with answers to just remember and get ready for job interviews
 
-# Chapters
+## Chapters
 - **[python](/python)** in progress
 - **R**
 - **c++**
@@ -23,3 +23,6 @@ Coding questions with answers to just remember and get ready for job interviews
 	- keras
 	- sequential modeling
 	- low level
+
+## Notice
+This repository is for personal use. I'm not a teacher nor an expert, just a regular person who wants to be better at coding. I try to write the answers cleanly and concisely. However, if you think there's a better way to answer a coding problem, tell me (send issues or whatever possible way you believe is better). Feel free to fork, copy, or whatever thing you want.
