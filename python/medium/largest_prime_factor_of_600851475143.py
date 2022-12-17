@@ -42,6 +42,23 @@ def largest_prime_factor(n):
         return n
 
 
+def largest_prime_factor_efficient_way(number):
+    """n is integer
+    returns largest prime factor of n
+    source: https://codereview.stackexchange.com/a/276811
+    """
+    factor = 2
+    remnant = number
+
+    while factor**2 <= remnant:
+        if remnant % factor == 0:
+            remnant //= factor
+        else:
+            factor += 1
+
+    return remnant
+
+
 if __name__ == "__main__":
     n = 600851475143
-    print(largest_prime_factor(n))
+    print(largest_prime_factor_efficient_way(n))
