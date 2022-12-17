@@ -1,6 +1,7 @@
 # Question
 """What is the largest prime factor of the number 600851475143?
-source: https://projecteuler.net/problem=3"""
+source: https://projecteuler.net/problem=3
+"""
 
 # Answer
 
@@ -8,7 +9,8 @@ source: https://projecteuler.net/problem=3"""
 def is_prime(n):
     """n is integer
     returns True if n is prime
-    and False if n is not prime"""
+    and False if n is not prime
+    """
 
     if n % 2 == 0:
         return False
@@ -22,7 +24,8 @@ def is_prime(n):
 
 def largest_prime_factor(n):
     """n is integer
-    returns largest prime factor of n"""
+    returns largest prime factor of n
+    """
     prime_factors = []
     step = 1
 

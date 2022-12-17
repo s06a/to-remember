@@ -1,6 +1,7 @@
 # Question
 """check if the number is palindorme; it's
-equal to its reverse"""
+equal to its reverse
+"""
 
 # Answer
 
@@ -8,7 +9,8 @@ equal to its reverse"""
 def _palindrome_checker(number):
     """number is integer
     checks if number is palindorme
-    returns True or False"""
+    returns True or False
+    """
     """this function uses python, and
     maybe it's not a very nice way
     to solve a mathematical problem
@@ -21,7 +23,8 @@ def _palindrome_checker(number):
 def palindrome_checker(number):
     """number is integer
     checks if number is palindorme
-    returns True or False"""
+    returns True or False
+    """
     rev = 0
     num = number
 

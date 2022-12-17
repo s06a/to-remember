@@ -1,6 +1,7 @@
 # Question
 """function to return all the numbers
-not divisible by n and m in a given range"""
+not divisible by n and m in a given range
+"""
 
 # Answer
 
@@ -8,7 +9,8 @@ not divisible by n and m in a given range"""
 def func(m, n, lower_range, upper_range):
     """n, m, lower_range, and upper_range are integers
     returns list of numbers not divisible by n and m
-    between lower_range and upper_range"""
+    between lower_range and upper_range
+    """
     list = []
 
     for i in range(lower_range, upper_range):

@@ -1,14 +1,16 @@
 # Question
 """check if number is strong; sum of the
 factorials of each digit is equal to the
-number"""
+number
+"""
 
 # Answer
 
 
 def factorial(n: int):
     """n is integer
-    returns factorial of n"""
+    returns factorial of n
+    """
     sum = 1
 
     while n > 0:
@@ -21,7 +23,8 @@ def factorial(n: int):
 def is_strong(n: int):
     """n is integer
     checks if n is strong or not
-    returns True or False"""
+    returns True or False
+    """
     list = [int(n) for n in str(n)]
     sum = 0
 

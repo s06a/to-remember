@@ -1,6 +1,7 @@
 # Question
 """ Find the sum of all the multiples of 3 or 5 below 1000
-source: https://projecteuler.net/problem=1"""
+source: https://projecteuler.net/problem=1
+"""
 
 # Answer
 
@@ -8,7 +9,8 @@ source: https://projecteuler.net/problem=1"""
 def find_multiples_in_range_long_version(n, m, lower_range, upper_range):
     """n, m, lower_range, and upper_range are integers
     returns list of multiples of n and m between lower_range
-    and upper_range"""
+    and upper_range
+    """
     list = []
 
     for i in range(lower_range, upper_range):
@@ -21,7 +23,8 @@ def find_multiples_in_range_long_version(n, m, lower_range, upper_range):
 def find_multiples_in_range(n, m, lower_range, upper_range):
     """n, m, lower_range, and upper_range are integers
     returns list of multiples of n and m between lower_range
-    and upper_range"""
+    and upper_range
+    """
 
     return [i for i in range(1000) if i % n == 0 or i % m == 0]
 

@@ -1,6 +1,7 @@
 # Question
 """find prime numbers in a range
-between lower_range and upper_range"""
+between lower_range and upper_range
+"""
 
 # Answer
 
@@ -8,7 +9,8 @@ between lower_range and upper_range"""
 def is_prime(n):
     """n is integer
     checks if n is prime
-    returns True or False"""
+    returns True or False
+    """
 
     if n % 2 == 0:
         return False
@@ -24,7 +26,8 @@ def is_prime(n):
 
 def prime_numbers(lower_range, upper_range):
     """lower_range and upper_range are integers
-    returns list of prime numbers"""
+    returns list of prime numbers
+    """
     list = []
 
     for n in range(lower_range, upper_range):

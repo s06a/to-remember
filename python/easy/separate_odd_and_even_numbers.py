@@ -2,7 +2,8 @@
 """Write a function to get a list of numbers
 Separate them into odd and even, then return
 two lists, one list of odd numbers and the
-other list consists of even numbers"""
+other list consists of even numbers
+"""
 
 # Answer
 
@@ -10,7 +11,8 @@ other list consists of even numbers"""
 def separator(ls):
     """ls is a list of integers
     returns even numbers in list1
-    and odd numbers in list2"""
+    and odd numbers in list2
+    """
     list1, list2 = [], []
 
     for l in ls:

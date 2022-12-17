@@ -1,13 +1,13 @@
 # Question
-"""get an integer and return its
-factorial"""
+"""get an integer and return its factorial"""
 
 # Answer
 
 
 def factorial(n):
     """n is integer
-    returns factorial of n"""
+    returns factorial of n
+    """
     sum = 1
 
     while n > 0:

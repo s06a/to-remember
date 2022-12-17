@@ -1,6 +1,7 @@
 # Question
 """check if the given number is abundant;
-sum of its proper divisors is greater than the number"""
+sum of its proper divisors is greater than the number
+"""
 
 # Answer
 
@@ -24,7 +25,8 @@ def divisors(number):
 def check_if_abundant(number):
     """number is integer
     checks if number is abundant
-    returns True or False"""
+    returns True or False
+    """
 
     return number > sum(divisors(number))
 
