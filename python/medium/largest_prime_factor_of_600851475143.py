@@ -2,9 +2,6 @@
 """What is the largest prime factor of the number 600851475143?
 source: https://projecteuler.net/problem=3
 """
-"""not the fastest algorithm, however, for this question it's
-still pretty fast
-"""
 
 # Answer
 

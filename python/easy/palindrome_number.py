@@ -1,6 +1,6 @@
 # Question
-"""check if the number is palindorme; it's
-equal to its reverse
+"""check if the number is palindorme;
+it's equal to its reverse
 """
 
 # Answer

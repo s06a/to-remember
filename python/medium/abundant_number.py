@@ -1,6 +1,6 @@
 # Question
-"""check if the given number is abundant;
-sum of its proper divisors is greater than the number
+"""check if the given number is abundant; sum of
+its proper divisors is greater than the number
 """
 
 # Answer
