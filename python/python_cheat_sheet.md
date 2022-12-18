@@ -6,6 +6,7 @@
 
 <!-- vim-markdown-toc -->
 
+> strings are immutable
 
 use raw strings
 ```
@@ -20,3 +21,41 @@ something: something_else
 		-some_key	something_else_here
 """)
 ```
+
+concatenate strings
+```
+'2' + 2 * '0' + '2!'
+```
+
+concatenate strings with parentheses
+```
+print('hi'
+      'there')
+```
+
+concatenate lists
+```
+[1, 2] + [3, 4]
+> [1, 2, 3, 4]
+```
+
+lists are mutable
+```
+list[0] = 4
+print(list[0])
+> 4
+```
+
+empty part of list
+```
+list[2:8] = []
+```
+
+use end keyword to the newline in print
+```
+# in a loop
+print(i, key=',')
+> i, i+1, i+2
+```
+
+
