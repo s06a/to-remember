@@ -1,12 +1,11 @@
+# Python Cheat Sheet
+
 # Table of Contents
 
 <!-- vim-markdown-toc GFM -->
 
-* [Python Cheat Sheet](#python-cheat-sheet)
-
 <!-- vim-markdown-toc -->
 
-# Python Cheat Sheet
 
 use raw strings
 ```
