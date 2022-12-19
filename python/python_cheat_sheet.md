@@ -4,6 +4,9 @@
 
 <!-- vim-markdown-toc GFM -->
 
+* [whitespace](#whitespace)
+* [blank lines](#blank-lines)
+
 <!-- vim-markdown-toc -->
 
 > strings are immutable
@@ -62,3 +65,16 @@ print(i, key=',')
 ```
 list.sort(reverse=True)
 ```
+
+## whitespace
+add whitespace around operators with the lowest priority
+```
+# correct forms
+4*4 + 2 * (3+1)
+(4+1) * (5-1) 
+```
+
+## blank lines
+> two blank lines around top leven functions and classes
+> one blank line around methods inside class
+

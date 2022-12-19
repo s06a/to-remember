@@ -9,10 +9,13 @@ do this till the end
 
 
 def return_max_min(sequence):
-    """sequence is list of integers
-    returns maximum if length of the sequence
-    is even, and returns minimum if the length
-    of the sequence is odd
+    """Calculates maximum or minimum of a list.
+
+    sequence is a list of integers
+    returns integer
+
+    returns maximum if length of sequence is even
+    returns minimum if length of sequence is odd
     """
 
     if len(sequence) % 2 == 0:

@@ -7,25 +7,26 @@ its proper divisors is greater than the number
 
 
 def divisors(number):
-    """number is integer
-    returns divisors except
-    the number itself
+    """Lists divisors of number except the number.
+
+    number is integer
+    returns list of integers.
     """
     divisors = [1]
     n = 2
-
-    while n <= int(round(number**0.5))+1:
+    while n <= int(round(number ** 0.5)) + 1:
         if number % n == 0:
-            divisors.extend([n, number/n])
+            divisors.extend([n, number / n])
         n += 1
 
     return list(set(divisors))
 
 
 def check_if_abundant(number):
-    """number is integer
-    checks if number is abundant
-    returns True or False
+    """Checks if number is abundant.
+
+    number is integer
+    returns True or False.
     """
 
     return number > sum(divisors(number))

@@ -7,9 +7,11 @@ number
 # Answer
 
 
-def factorial(n: int):
-    """n is integer
-    returns factorial of n
+def factorial(n):
+    """Calculates factorial of n.
+
+    n is integer
+    returns integer
     """
     sum = 1
 
@@ -20,9 +22,10 @@ def factorial(n: int):
     return sum
 
 
-def is_strong(n: int):
-    """n is integer
-    checks if n is strong or not
+def is_strong(n):
+    """Checks if n is strong.
+
+    n is integer
     returns True or False
     """
     list = [int(n) for n in str(n)]

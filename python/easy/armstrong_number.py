@@ -7,8 +7,10 @@ the number is equal to the number
 # Answer
 
 
-def is_armstrong(n: int):
-    """n is integer
+def is_armstrong(n):
+    """Checks if n is armstrong.
+
+    n is integer
     returns True or False
     """
     list = [n for n in str(n)]
@@ -16,7 +18,7 @@ def is_armstrong(n: int):
     sum = 0
 
     for i in list:
-        sum += int(i)**p
+        sum += int(i) ** p
 
     return sum == n
 

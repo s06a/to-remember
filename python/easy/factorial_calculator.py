@@ -5,8 +5,10 @@
 
 
 def factorial(n):
-    """n is integer
-    returns factorial of n
+    """Calculates factorial of a number.
+
+    n is integer
+    returns integer
     """
     sum = 1
 

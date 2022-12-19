@@ -8,10 +8,12 @@ the result
 
 
 def rotate_array(array, steps, clockwise=True):
-    """array is a list of integers, steps
-    is integer, clockwise is True by default
-    the function rotates the array k times
-    returns the rotated array
+    """Rotates array.
+
+    array is a list of integers
+    steps is integer
+    clockwise is True or False
+    returns list of integers
     """
 
     if clockwise:

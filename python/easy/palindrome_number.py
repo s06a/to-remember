@@ -6,31 +6,28 @@ it's equal to its reverse
 # Answer
 
 
-def _palindrome_checker(number):
-    """number is integer
-    checks if number is palindorme
+def palindrome_checker(number):
+    """Checks if a number is palindrome.
+
+    number is integer
     returns True or False
     """
-    """this function uses python, and
-    maybe it's not a very nice way
-    to solve a mathematical problem
-    """
-    number = str(number)
 
-    return number == number[::-1]
+    return str(number) == str(number)[::-1]
 
 
-def palindrome_checker(number):
-    """number is integer
-    checks if number is palindorme
+def non_pythonic_palindrome_checker(number):
+    """Checks if a number is palindorme.
+
+    number is integer
     returns True or False
     """
     rev = 0
     num = number
 
     while number > 0:
-        rev = 10 * rev + number % 10
-        number = number // 10
+        rev = 10*rev + number % 10
+        number //= 10
 
     return rev == num
 

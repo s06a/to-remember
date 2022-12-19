@@ -7,9 +7,13 @@ source: https://projecteuler.net/problem=1
 
 
 def find_multiples_in_range_long_version(n, m, lower_range, upper_range):
-    """n, m, lower_range, and upper_range are integers
-    returns list of multiples of n and m between lower_range
-    and upper_range
+    """Finds multiple of n and m in a range.
+
+    n is integer
+    m is integer 
+    lower_range is integer
+    upper_range is integer
+    returns list of integers
     """
     list = []
 
@@ -21,12 +25,16 @@ def find_multiples_in_range_long_version(n, m, lower_range, upper_range):
 
 
 def find_multiples_in_range(n, m, lower_range, upper_range):
-    """n, m, lower_range, and upper_range are integers
-    returns list of multiples of n and m between lower_range
-    and upper_range
+    """Finds multiple of n and m in a range.
+
+    n is integer
+    m is integer 
+    lower_range is integer
+    upper_range is integer
+    returns list of integers
     """
 
-    return [i for i in range(1000) if i % n == 0 or i % m == 0]
+    return [i for i in range(lower_range, upper_ranger) if i % n == 0 or i % m == 0]
 
 
 if __name__ == "__main__":

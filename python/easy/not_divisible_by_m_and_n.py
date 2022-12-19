@@ -6,10 +6,14 @@ not divisible by n and m in a given range
 # Answer
 
 
-def func(m, n, lower_range, upper_range):
-    """n, m, lower_range, and upper_range are integers
-    returns list of numbers not divisible by n and m
-    between lower_range and upper_range
+def not_divisible_by(m, n, lower_range, upper_range):
+    """Lists all the numbers not divisible by m and n in a range.
+
+    n is integer
+    m is integer
+    lower_range is integer
+    upper_range is integer
+    returns list of integers
     """
     list = []
 

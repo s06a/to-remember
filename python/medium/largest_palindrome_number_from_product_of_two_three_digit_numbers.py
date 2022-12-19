@@ -7,25 +7,28 @@ source: https://projecteuler.net/problem=4
 
 
 def is_palindrome(n):
-    """n is integer
-    checks if n is palindrome
-    returns True or False
+    """Checks if n is palindrome.
+
+    n is integer
+    returns True or False.
     """
 
     return str(n) == str(n)[::-1]
 
 
 def largest_palindrome(n_digit):
-    """n_digit is integer, and indicates
-    len of divisors
-    returns largest palindrome number, which
-    is product or n_digit divisors
+    """Finds largest palindrome number made by multiplication of two n_digit numbers.
+
+    n_digit is integer
+    returns integer
     """
     list = []
-    for i in range(10 ** (n_digit - 1), 10 ** (n_digit)):
-        for j in range(10 ** (n_digit - 1), 10 ** (n_digit)):
-            if is_palindrome(i*j):
-                list.append(i*j)
+
+    for i in range(10**(n_digit - 1), 10 ** n_digit):
+        for j in range(10**(n_digit - 1), 10 ** n_digit):
+            if is_palindrome(i * j):
+                list.append(i * j)
+
     return max(list)
 
 

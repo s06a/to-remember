@@ -7,15 +7,16 @@ source: https://projecteuler.net/problem=3
 
 
 def is_prime(n):
-    """n is integer
-    returns True if n is prime
-    and False if n is not prime
+    """Checks if n is prime.
+
+    n is integer
+    returns True or False
     """
 
     if n % 2 == 0 or n % 3 == 0:
         return False
 
-    for i in range(5, int(n**0.5) + 1, 6):
+    for i in range(5, int(n ** 0.5) + 1, 6):
         if n % i == 0:
             return False
 
@@ -23,13 +24,15 @@ def is_prime(n):
 
 
 def largest_prime_factor(n):
-    """n is integer
-    returns largest prime factor of n
+    """Finds largest prime factor.
+
+    n is integer
+    returns integer
     """
     prime_factors = []
     step = 1
 
-    for i in range(2, int(n**0.5) + 1, step):
+    for i in range(2, int(n ** 0.5) + 1, step):
         if is_prime(i) and n % i == 0:
             prime_factors.append(i)
 

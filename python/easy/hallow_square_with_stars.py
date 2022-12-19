@@ -5,16 +5,17 @@
 
 
 def hallow_square(n):
-    """n is integer
-    prints a hallow square with
-    star character
+    """Prints a hallow square with '*'.
+
+    n is integer
+    returns none
     """
 
     for i in range(1, n + 1):
         if i == 1 or i == n:
-            print('* '*(n-1) + '*')
+            print('* ' * (n-1) + '*')
         else:
-            print('*' + ' '*(2*(n - 1) - 1) + '*')
+            print('*' + ' ' * (2 * (n-1) - 1) + '*')
 
 
 if __name__ == "__main__":

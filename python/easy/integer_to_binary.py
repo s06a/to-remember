@@ -5,8 +5,10 @@
 
 
 def binary(n):
-    """n is integer
-    returns binary number
+    """Calculates binary of a number.
+
+    n is integer
+    returns integer
     """
     output = []
 

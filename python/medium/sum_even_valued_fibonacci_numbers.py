@@ -9,7 +9,9 @@ source: https://projecteuler.net/problem=2
 
 
 def is_even(n):
-    """n is integer
+    """Checks if n is even
+
+    n is integer
     returns True or False
     """
 
@@ -20,7 +22,7 @@ if __name__ == "__main__":
     i, j = 1, 1
     sum = 0
 
-    while j < 4*10**6:
+    while j < 4 * 10**6:
         if is_even(j):
             sum += j
         i, j = j, i + j

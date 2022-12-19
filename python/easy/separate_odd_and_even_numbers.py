@@ -9,9 +9,10 @@ other list consists of even numbers
 
 
 def separator(ls):
-    """ls is a list of integers
-    returns even numbers in list1
-    and odd numbers in list2
+    """Separates odd and even number.
+
+    ls is list of integers
+    returns tow lists of integers
     """
     list1, list2 = [], []
 
