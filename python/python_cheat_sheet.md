@@ -58,4 +58,7 @@ print(i, key=',')
 > i, i+1, i+2
 ```
 
-
+> sort lists the list ascending by default
+```
+list.sort(reverse=True)
+```
