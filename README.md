@@ -1,6 +1,6 @@
-# Coding questions with answers
+# Code to remember
 
-Coding questions with answers to just remember and get ready for job interviews
+Coding questions with answers accompanied by cheat sheets to remember how to use different languages and get ready in a short time.
 
 ## Chapters
 - **[python](/python)** in progress
