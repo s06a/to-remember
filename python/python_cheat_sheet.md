@@ -4,10 +4,15 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* [whitespace](#whitespace)
-* [blank lines](#blank-lines)
+* [basics](#basics)
+* [pep8](#pep8)
+	* [whitespace](#whitespace)
+	* [blank lines](#blank-lines)
+* [control flow](#control-flow)
 
 <!-- vim-markdown-toc -->
+
+# basics
 
 > strings are immutable
 
@@ -65,7 +70,7 @@ print(i, key=',')
 ```
 list.sort(reverse=True)
 ```
-
+# pep8
 ## whitespace
 add whitespace around operators with the lowest priority
 ```
@@ -78,3 +83,74 @@ add whitespace around operators with the lowest priority
 > two blank lines around top leven functions and classes
 > one blank line around methods inside class
 
+# control flow
+
+continue
+```
+for i in range(10):
+	if i % 2 == 0:
+		print(f'{i} is even')
+		continue
+	print(f'{i} is odd')
+> 1 is odd
+> 2 is even
+> 3 is odd
+...
+```
+
+match 
+```
+match something:
+	case sub_something:
+		return 'something'
+	case somthing1 | something2 | something3:
+		return 'something else'
+	case _:
+		return 'the other thing'
+```
+
+default values in functions
+```
+i = 1
+
+def func(n=i):
+	return n
+
+i = 2
+print(func())
+> 1
+```
+
+mutable objetcs in functions
+```
+def func(n, list=[]):
+	list.append(n)
+	return list
+
+print(func(1))
+> [1]
+print(func(2))
+> [1, 2]
+```
+
+positional arguments and keyword arguments
+```
+# positinal arguments
+func(1, 2) # or as elements of iterable func(*(1, 2))
+
+# keyword arguments
+func(i=1, j=2) # or using a dictionary func(**{'i': 1, 'j': 2})
+```
+```
+def func(n, *arguments, **keywords):
+	print(n)
+	[print(arg) for arg in arguments]
+	[print(f'{kw}: {keywords[kw]}) for kw in keywords]
+
+func(1, 2, 3, i=4, j=5)
+> 1
+> 2
+> 3
+> i: 4
+> j: 5
+```
