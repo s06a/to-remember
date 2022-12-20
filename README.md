@@ -15,6 +15,8 @@ Coding questions with answers accompanied by cheat sheets to remember how to use
 	- vue.js
 	- react
 - **[shell scripting](/shell-scripting)** in progress
+- **[Git](/git)** in progress
+- **[LaTeX](/latex)** in progress
 - **machine learning**
 	- regression
 	- classification
