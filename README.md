@@ -25,6 +25,12 @@ Coding questions with answers accompanied by cheat sheets to remember how to use
 	- Keras
 	- Sequential Modeling
 - **Database**
+- **Editors** in progress
+	- **Ed** enough
+	- **Vi/Vim** almost done
+	- **Emacs**
+	- **nano**
+	- **Micro**
 
 ## Notice
 This repository is for personal use. I'm not a teacher nor an expert, just a regular person who wants to be better at coding. I try to write the answers correctly, cleanly, and concisely. However, there still might be unnoticed issues. Please feel free to inform me.
