@@ -1,10 +1,10 @@
-# Too remember
+# To remember
 
-Coding questions with answers, coding projects, and cheat sheets to remember how to use different languages and tools in a short time.
+An almost continuously updating set of coding questions with answers, sample coding projects, and cheat sheets to remember how to use different languages and tools in a short time.
 
 ## Chapters
-- **[Python](/python)** in progress
-	- [Questions](/python/questions)
+- **[Python](/python)**
+	- [questions](/python/questions)
 	- [cheat sheet](/python/python_cheat_sheet.md)
 - **R**
 - **C++**
@@ -16,7 +16,7 @@ Coding questions with answers, coding projects, and cheat sheets to remember how
 - **Frontend**
 	- Vue.js
 	- React
-- **[Shell Scripting](/shell-scripting)** in progress
+- **[Shell Scripting](/shell-scripting)**
 	- [questions](/shell-scripting/questions)
 	- [cheat sheet](/shell-scripting/bash_and_shell_scripting_cheat_sheet.md)
 - **[Git](/git/git_cheat_sheet.md)** in progress
@@ -29,12 +29,12 @@ Coding questions with answers, coding projects, and cheat sheets to remember how
 	- Keras
 	- Sequential Modeling
 - **Database**
-- **[Editors](/editors)** in progress
-	- [Ed](/editors/ed.md) enough
-	- [Vi/Vim](/editors/vi-vim.md) almost done
+- **[Editors](/editors)**
+	- [Ed](/editors/ed.md)
+	- [Vi/Vim](/editors/vi-vim.md)
 	- [Emacs](/editors/emacs.md)
 	- [nano](/editors/nano.md)
 	- [Micro](/editors/micro.md)
 
 ## Notice
-This repository is for personal use. I'm not a teacher nor an expert, just a regular person who wants to be better at coding. I try to write the answers correctly, cleanly, and concisely. However, there still might be unnoticed issues. Please feel free to inform me.
+This repository is for personal use. I'm not a teacher nor an expert, just a regular person who wants to be better at coding. I try to write answers, projects, and cheat sheets correctly, cleanly, and concisely. However, there still might be unnoticed issues. Please feel free to inform me.
