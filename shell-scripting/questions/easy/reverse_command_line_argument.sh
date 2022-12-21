@@ -12,4 +12,4 @@ do
 	rev="$rev${var:$i:1}"
 done
 
-echo "Hello $rev"
+echo "Hello $rev!"
