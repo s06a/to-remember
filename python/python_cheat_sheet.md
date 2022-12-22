@@ -85,7 +85,7 @@ add whitespace around operators with the lowest priority
 (4+1) * (5-1) 
 ```
 
-> two blank lines around top leven functions and classes
+> two blank lines around top level functions and classes
 
 > one blank line around methods inside class
 
@@ -178,8 +178,11 @@ func(**dic1)
 
 lambda (anonymous function)
 ```
-def func(i):
-	return lambda i: i**2
+def power_to(n):
+	return lambda x: x**n
+p = power_to(10)
+p(2)
+> 1024
 ```
 ```
 list = [('name1', 'James'), ('name2', 'Lilly'), ('name3', 'Harry')]
