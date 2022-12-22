@@ -23,6 +23,7 @@
 	* [NERDTree - file system explorer in vim](#nerdtree---file-system-explorer-in-vim)
 	* [vim-fugitive - use Git inside vim](#vim-fugitive---use-git-inside-vim)
 	* [ale - to autofix writing issues](#ale---to-autofix-writing-issues)
+* [Vim scrpiting](#vim-scrpiting)
 
 <!-- vim-markdown-toc -->
 
@@ -31,6 +32,9 @@
 ## to open a file
 ```
 vi filename
+```
+```
+:edit filename
 ```
 
 ## to see help
@@ -229,15 +233,10 @@ select (move cursor, use `y` to copy and `d` to cut, use `p` to paste)
 v
 ```
 
-to set a marker named 'f'
-```
-`m` then `f`
-```
+to set a marker named 'f': `m` then `f` 
 
-to jump to the marker 'f'
-```
-`'` then `f`
-```
+to jump to the marker 'f': `'` then `f`
+
 
 ## to save or exit 
 
@@ -274,22 +273,30 @@ move cursor to the end of the current line
 ```
 $
 ```
+
 jump to the first line
 ```
 gg
 ```
+
 jump to the last line
 ```
 G
 ```
+
+jump to the nth line: type line number then `G`
+
 move to the next word
 ```
 w
 ```
+
 move to the previous word
 ```
 b
 ```
+
+
 
 ## to delete content 
 
@@ -473,4 +480,68 @@ let g:ale_fix_on_save = 1
 to see appropriate fixers for a file
 ```
 :ALEFixSuggest
+```
+
+# Vim scrpiting
+
+help
+```
+:help vim-script-intro
+```
+
+source current file to run
+```
+:source %
+```
+
+first line of vim script file
+```
+vim9script
+```
+
+script local variable
+```
+var name_of_variable = value
+```
+
+global variables in script (usable in any script file)
+```
+g:variable_name
+echo g:variable_name
+```
+
+to delete a global variable
+```
+unlet g:variable_name
+```
+
+to delete a global variable (prevent error message if variable doesn't exist) 
+```
+unlet! g:variable_name 
+```
+
+to list currently defined global variables
+```
+:let
+```
+
+while loop
+```
+while something_is_true
+	do_something
+endwhile
+```
+
+for loop
+```
+for variable in range(n, m)
+	do_something
+endfor
+```
+
+print
+```
+" for example in a while loop
+echo 'i is equal to: ' i
+i += 1
 ```
