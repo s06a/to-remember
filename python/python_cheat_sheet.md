@@ -188,7 +188,7 @@ p(2)
 list = [('name1', 'James'), ('name2', 'Lilly'), ('name3', 'Harry')]
 list.sort(key=lambda l:l[1])
 [l[0] for l in list]
->['name3', 'name1', 'name2']
+> ['name3', 'name1', 'name2']
 ```
 
 
