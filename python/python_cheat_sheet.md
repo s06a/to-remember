@@ -6,9 +6,8 @@
 
 * [basics](#basics)
 * [pep8](#pep8)
-	* [whitespace](#whitespace)
-	* [blank lines](#blank-lines)
 * [control flow](#control-flow)
+* [function](#function)
 
 <!-- vim-markdown-toc -->
 
@@ -71,7 +70,14 @@ print(i, key=',')
 list.sort(reverse=True)
 ```
 # pep8
-## whitespace
+> 4 spaces instead of tabs
+
+> max line character: 79
+
+> space around operators and after commas
+
+> `UpperCamelCase` for classes and `lowercase_with_underscores` for functions and methods
+
 add whitespace around operators with the lowest priority
 ```
 # correct forms
@@ -79,8 +85,8 @@ add whitespace around operators with the lowest priority
 (4+1) * (5-1) 
 ```
 
-## blank lines
 > two blank lines around top leven functions and classes
+
 > one blank line around methods inside class
 
 # control flow
@@ -108,6 +114,8 @@ match something:
 	case _:
 		return 'the other thing'
 ```
+
+# function
 
 default values in functions
 ```
@@ -154,3 +162,30 @@ func(1, 2, 3, i=4, j=5)
 > i: 4
 > j: 5
 ```
+
+unpacking positional arguments
+```
+args = [1, 3]
+set(range(*args))
+> {1, 2}
+```
+
+unpacking keyword arguments
+```
+dic1 = {"a": "b", "c": "d"}
+func(**dic1)
+```
+
+lambda (anonymous function)
+```
+def func(i):
+	return lambda i: i**2
+```
+```
+list = [('name1', 'James'), ('name2', 'Lilly'), ('name3', 'Harry')]
+list.sort(key=lambda l:l[1])
+[l[0] for l in list]
+>['name3', 'name1', 'name2']
+```
+
+
