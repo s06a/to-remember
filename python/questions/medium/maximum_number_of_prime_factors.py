@@ -13,12 +13,11 @@ def number_of_prime_factors(n):
     returns integer
     """
     factor = 2
-    remnant = n
     num = 0
 
-    while factor <= remnant:
-        if remnant % factor == 0:
-            remnant //= factor
+    while factor <= n:
+        if n % factor == 0:
+            n //= factor
             num += 1
         else:
             factor += 1
