@@ -1,6 +1,6 @@
 # Question
 """get a list of numbers, return the number which 
-has maximum number of prime factors
+has the maximum number of prime factors
 """
 
 # Answer
