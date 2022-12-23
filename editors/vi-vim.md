@@ -17,6 +17,7 @@
 	* [to delete content](#to-delete-content)
 	* [to undo](#to-undo)
 	* [to find, or find and replace a word](#to-find-or-find-and-replace-a-word)
+	* [fold](#fold)
 * [plugins](#plugins)
 	* [install plugin with Vundle plugin manager](#install-plugin-with-vundle-plugin-manager)
 	* [generate table of contents for md files](#generate-table-of-contents-for-md-files)
@@ -369,6 +370,37 @@ to find and replace in the current line
 to find and replace in certain lines
 ```
 :(start_line_number),(end_line_number)s/word/target_word/g
+```
+
+## fold
+to enable fold method
+```
+:set foldmethod=indent "syntax for js, indent for python
+```
+
+maximum nest
+```
+:set foldnestmax=n
+```
+
+set fold level
+```
+:set foldlevel=n
+```
+
+enable no fold
+```
+:set nofoldenable
+```
+
+open fold on the current line
+```
+zo "zO opens all folds at the cursor
+```
+
+close fold at the cursor
+```
+zc "zM closes all open folds
 ```
 
 # plugins
