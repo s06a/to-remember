@@ -18,6 +18,7 @@
 	* [to undo](#to-undo)
 	* [to find, or find and replace a word](#to-find-or-find-and-replace-a-word)
 	* [fold](#fold)
+	* [add string at the beginning of all lines](#add-string-at-the-beginning-of-all-lines)
 * [plugins](#plugins)
 	* [install plugin with Vundle plugin manager](#install-plugin-with-vundle-plugin-manager)
 	* [generate table of contents for md files](#generate-table-of-contents-for-md-files)
@@ -401,6 +402,15 @@ zo "zO opens all folds at the cursor
 close fold at the cursor
 ```
 zc "zM closes all open folds
+```
+
+## add string at the beginning of all lines
+```
+" ctrl + v
+" select rows
+" shift + i
+" esc
+" wait for a moment, there they are!
 ```
 
 # plugins
