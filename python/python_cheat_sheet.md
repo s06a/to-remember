@@ -207,6 +207,12 @@ create virtualenv
 virtualenv name_of_the_venv
 ```
 
+create venv in current folder
+```
+virtualenv .
+```
+
+
 specify python interpreter
 ```
 virtualenv -p /path_to_python name_of_the_venv
