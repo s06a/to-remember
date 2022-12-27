@@ -8,6 +8,8 @@
 * [pep8](#pep8)
 * [control flow](#control-flow)
 * [function](#function)
+* [packages](#packages)
+	* [virtual environment](#virtual-environment)
 
 <!-- vim-markdown-toc -->
 
@@ -69,6 +71,7 @@ print(i, key=',')
 ```
 list.sort(reverse=True)
 ```
+
 # pep8
 > 4 spaces instead of tabs
 
@@ -191,4 +194,30 @@ list.sort(key=lambda l:l[1])
 > ['name3', 'name1', 'name2']
 ```
 
+# packages
 
+## virtual environment
+install the package
+```
+pip install virtualenv
+```
+
+create virtualenv
+```
+virtualenv name_of_the_venv
+```
+
+specify python interpreter
+```
+virtualenv -p /path_to_python name_of_the_venv
+```
+
+activate venv
+```
+source bin/activate
+```
+
+deactivate venv
+```
+deactivate
+```
