@@ -14,6 +14,8 @@
 	* [print](#print)
 	* [to shift](#to-shift)
 	* [type](#type)
+* [handy commands](#handy-commands)
+	* [list name of the files in a directory](#list-name-of-the-files-in-a-directory)
 * [Shell Scripting](#shell-scripting)
 	* [to comment](#to-comment)
 	* [if elif else](#if-elif-else)
@@ -315,6 +317,13 @@ echo "$* length:$#"
 
 ## type
 to find out if command is a shell builtin or not
+
+# handy commands
+
+## list name of the files in a directory
+```
+ls -l | grep -o -E '[^ ]+$'
+```
 
 # Shell Scripting
 
